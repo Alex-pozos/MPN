@@ -1,0 +1,234 @@
+/* Inicio de los estilos de la barra del menu  */
+#menu {
+   padding: 0;
+   margin: 0;
+   border: 0; 
+}
+
+#menu ul, li {
+   list-style: none;
+   margin: 0;
+   padding: 0; 
+}
+#menu ul {
+   position: relative;
+   z-index: 600;
+   float: left; 
+}
+
+#menu ul li {
+   float: left;
+   min-height: 1px;
+   line-height: 1em;
+   vertical-align: middle; 
+}
+
+#menu ul li.hover,
+#menu ul li:hover {
+   position: relative;
+   z-index: 599;
+   cursor: default; 
+}
+
+#menu ul ul {
+   visibility: hidden;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   z-index: 598;
+   width: 100%; 
+}
+
+#menu ul ul li {
+   float: none; 
+}
+
+#menu ul li:hover > ul {
+   visibility: visible; 
+}
+
+/* #menu ul ul {
+   top: 0;
+   left: 100%; 
+} */
+
+#menu ul li {
+   float: none; 
+}
+
+#menu {
+   width: 25rem; 
+}
+
+#menu span, #menu a {
+   display:inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   text-decoration: none; 
+}
+
+#menu:after, #menu ul:after {
+   content: '';
+   display: block;
+   clear: both; 
+}
+
+#menu ul, #menu li {
+   width: 100%; 
+}
+#menu li {
+   background: #d9deda;
+}
+#menu li:hover {
+   background: #ffffff; 
+}
+#menu a {
+   color: #a02b25 ;
+   line-height: 150%;
+   padding: 11px 15px 11px 25px;
+   width: 350px; 
+}
+#menu ul ul li {
+   background: #aaaaaa; 
+}
+#menu ul ul li a{
+   color: #ffffff; 
+}
+#menu ul ul li:hover {
+   background: #cfcfcf; 
+}
+#menu ul ul li:hover a {
+   color: #666666; 
+}
+#menu ul ul li ul li {
+   background: #dddddd; 
+}
+#menu ul ul li ul li:hover {
+   background: #b7b7b7; 
+}
+#menu .has-sub {
+   position: relative; 
+}
+#menu .has-sub:after, #menu .has-sub > ul > .has-sub:hover:after {
+   content: '';
+   display: block;
+   width: 10px;
+   height: 9px;
+   position: absolute;
+   right: 5px;
+   top: 50%;
+   margin-top: -5px;
+}
+/* Fin de los estilos del menu */
+
+/* fondo de la parte del header */
+.fondo{
+   background: #d9deda ;
+}
+/* Imagen responsive del header */
+.imgresponsive{
+   width: 100%;
+   height: fit-content;
+}
+/* Fondo del header despues del menu responsivo*/
+.fondoimg {
+   background-image: url(../img/index/video_1.gif);
+   -webkit-background-size: 100% 100%;           /* Safari 3.0 */
+   -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+     -o-background-size: 100% 100%;           /* Opera 9.5 */
+        background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+}
+/* Fondo del footer en encabezado y pie de pagina */
+.fondo2{
+   background-color:#c7d491;
+}
+/* estilos de la barra de busqueda y de las redes sociales  */
+.redesheader{
+   background-color: rgb(0, 0, 0);
+   opacity: .9;
+   border-radius: 20px;
+   float: right;
+   margin:10px;
+}
+/* Estilos para hacer el carousel responsive */
+.carousel {
+   height:fit-content;
+   width: 100%;
+}
+/* fondo de la pagina principal del index */
+.fondo3{
+   background-color: rgb(221, 221, 221);
+}
+/* Tamaño de la letra del las redes sociales del pie de pagina */
+.t-contactanos{
+   font-size: 18px;
+   
+}
+/* Boreder radius de la barra de busqueda  */
+.border-radius{
+   border-radius: 20px;
+}
+
+.social-bar {
+   position: fixed;
+   right: 0;
+   top: 40%;
+   font-size: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   z-index: 100;
+   border-radius: 1rem;
+}
+
+.ico {
+   color: white;
+   text-decoration: none;
+   padding: 1rem;
+   
+}
+
+.ico-facebook {
+   background: #2E406E;
+   border-radius: 1rem 0 0 0;
+}
+
+.ico-inicio {
+   background: #292929;
+   border-radius: 0 0 0 0;
+}
+
+.ico-youtube {
+   background: #F70303;
+   border-radius: 0 0 0 1rem;
+}
+
+figure {
+   border-radius: 100%;
+   position: relative;  
+ }
+ 
+ figure:after {
+   background-color: rgba(0, 0, 0, .5);
+   border-radius: 5px;
+   color: #fff;
+   content: attr(title);
+   opacity: 0;
+   padding: 6px 12px;
+   position: absolute;
+   left: 110%;
+   top: 40%;
+   transition: all .25s ease;
+   visibility: hidden;
+   white-space: nowrap;
+ }
+ 
+ figure[tooltip-dir="left"]:after {
+   left: auto;
+   right: 110%;
+ }
+ figure:hover:after {
+   opacity: 1;
+   visibility: visible;
+ }
+ 
