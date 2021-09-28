@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="{{ asset('img/index/LOGOORIGINALMASPORNOSOTROS (2).png')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
@@ -12,7 +13,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/functions.js') }}" defer></script>
 
-    <title>@yield('title')</title>
+    <title>@yield('titulo')</title>
 </head>
 
 <body>
@@ -137,27 +138,22 @@
 
     {{-- Pie de pagina --}}
     <div class="row card text-center  bordeFooter">
-        <div class="card-header" style="background: #c7d491">
+        <div class="card-header" style="background: #cfcfcf; border: 1px solid silver">
             <h5 class="card-title lead">Contáctanos <i class="fab fa-teamspeak"></i> </h5>
         </div>
-        <div class="card-body lead t-contactanos">
-            <a class="m-4" href="#" data-toggle="modal" data-target="#modal_email" style="color:#bc172e">
-                <i class="far fa-envelope"></i> Email
+        <div class="card-body t-contactanos">
+            <a class="m-4" href="#" data-toggle="modal" data-target="#modal_email" style="color:#e01e38">
+                <i class="far fa-envelope"></i> Email: maspornosotros@gmail.com
             </a>
             <a class="m-4" href="#" data-toggle="modal" data-target="#modal_telefono" style="color:#68a266">
-                <i class="fas fa-phone-square-alt"></i> Teléfonos
+                <i class="fas fa-phone-square-alt"></i> Teléfonos: (55) 58443083 o 58443022 ext: 114
             </a>
-            <a class="m-4" href="#" data-toggle="modal" data-target="#modal_direccion" style="color:#d9a829">
-                <i class="fas fa-map-marked-alt"></i> Dirección
+            <a class="m-4" href="#" data-toggle="modal" data-target="#modal_direccion" style="color:#0077ff">
+                <i class="fas fa-map-marked-alt"></i> Dirección: Atzayacatl 93, Tula, Milpa Alta, 12200 San Pedro Atocpan, CDMX 
             </a>
-            <a class="m-4" href="" data-toggle="modal" data-target="#modal_youtube" style="color:red">
-                <i class="fab fa-youtube"></i> YouTube
-            </a>
-            <a class="m-4" href="" data-toggle="modal" data-target="#modal_facebook" style="color:#3e66af">
-                <i class="fab fa-facebook-square"></i> Facebook
-            </a>
+
         </div>
-        <div class="card-footer text-muted lead" style="background: #c7d491">
+        <div class="card-footer text-muted lead" style="background: #cfcfcf; border: 1px solid silver">
             2021© Todos los derechos reservados
         </div>
     </div>
