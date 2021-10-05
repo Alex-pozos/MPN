@@ -63,7 +63,7 @@
 #menu span, #menu a {
    display:inline-block;
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 16px;
+   font-size: 15px;
    text-decoration: none; 
 }
 
@@ -77,7 +77,7 @@
    width: 100%; 
 }
 #menu li {
-   background: #d9deda;
+   background: #FFE26D;
 }
 #menu li:hover {
    background: #ffffff; 
@@ -123,7 +123,7 @@
 
 /* fondo de la parte del header */
 .fondo{
-   background: #d9deda ;
+   background: #FFE26D ;
 }
 /* Imagen responsive del header */
 .imgresponsive{

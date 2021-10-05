@@ -26,10 +26,13 @@
             <ul>
                 <li class="has-sub">
                     <a href="index.php" title="index">
-                        INICIO
+                        <strong>INICIO</strong>
                     </a>
                 </li>
-                <li class="has-sub"><a title="">NOSOTROS</a>
+                <li class="has-sub">
+                    <a title="">
+                        <strong>NOSOTROS</strong>
+                    </a>
                     <ul>
                         <li><a title="Quienes somos" href="#quienessomos">
                                 Quiénes somos
@@ -44,7 +47,7 @@
                 </li>
                 <li class="has-sub">
                     <a title="">
-                        QUÉ HACEMOS
+                        <strong>QUÉ HACEMOS</strong>
                     </a>
                     <ul>
                         <li><a title="" href="#">Objetivos</a></li>
@@ -53,7 +56,7 @@
                 </li>
                 <li class="has-sub">
                     <a title="">
-                        ACCIONES
+                        <strong>ACCIONES</strong>
                     </a>
                     <ul>
                         <li><a title="" href="#">Campañas de saneamiento ambiental</a></li>
@@ -65,7 +68,7 @@
                 </li>
                 <li class="has-sub">
                     <a title="">
-                        PROGRAMAS
+                        <strong>PROGRAMAS</strong>
                     </a>
                     <ul>
                         <li><a title="" href="#">Educacion ambiental</a></li>
@@ -75,7 +78,7 @@
                 </li>
                 <li class="has-sub">
                     <a title="">
-                        PUBLICACIONES
+                        <strong>PUBLICACIONES</strong>
                     </a>
                     <ul>
                         <li><a title="" href="#">Calendario</a></li>
@@ -83,7 +86,7 @@
                 </li>
                 <li class="has-sub">
                     <a title="">
-                        NOTICIAS
+                        <strong>NOTICIAS</strong>
                     </a>
                 </li>
             </ul>
@@ -92,16 +95,13 @@
             <div id="carouselHeader" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="imgresponsive" src="{{ asset('img/index/DSC_0009.JPG') }}" alt="First slide">
+                        <img class="imgresponsive" src="{{ asset('img/index/PORTADA.JPG') }}" alt="Third slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="imgresponsive" src="{{ asset('img/index/DSC_0082 (2).JPG') }}" alt="Second slide">
+                        <img class="imgresponsive" src="{{ asset('img/index/IMG_20210703_121453.jpg') }}" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="imgresponsive" src="{{ asset('img/index/DSC_0082.JPG') }}" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="imgresponsive" src="{{ asset('img/index/DSC_0088.JPG') }}" alt="Third slide">
+                        <img class="imgresponsive" src="{{ asset('img/index/DSC_0477.JPG') }}" alt="Second slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselHeader" role="button" data-slide="prev">
@@ -154,7 +154,7 @@
 
         </div>
         <div class="card-footer text-muted lead" style="background: #cfcfcf; border: 1px solid silver">
-            2021© Todos los derechos reservados
+            2021© Todos los derechos reservados | Más por nosotros A.C.
         </div>
     </div>
 </body>

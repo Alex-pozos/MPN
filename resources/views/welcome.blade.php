@@ -7,18 +7,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <div class="container mt-4">
-        <div class="section-title text-center">
-            <span>Numeralia</span>
-        </div>
-        <div class="row">
-            <div class="col">
-                <img src="{{ asset('img/index/comunidad.png') }}" alt="">
-            </div>
-            <div class="col">
-                <h1 class="display-4" style="color:#004b87">Alcance comunitario</h1>
-            </div>
-        </div>
         <div id="projectFacts" class="sectionClass">
+            <div class="section-title text-center">
+                <span>Numeralia</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="{{ asset('img/index/comunidad.png') }}" alt="">
+                </div>
+                <div class="col">
+                    <h1 class="display-4" style="color:#004b87">
+                        Alcance comunitario
+                    </h1>
+                </div>
+            </div>
             <div class="fullwidth height columns">
                 <div class="factswrap" onscroll="myFunction()">
                     <div class="item fadeupbig animated animated" data-number="450" style="visibility: visible;">
