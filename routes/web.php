@@ -13,6 +13,7 @@ use App\Http\Controllers\ObjetivosController;
 use App\Http\Controllers\QuienesSomosController;
 use App\Http\Controllers\RecoleccionRSolidosController;
 use App\Http\Controllers\ResiduosSolidosController;
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,9 +27,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// WelcomeController
+Route::get('/', WelcomeController::class);
 // AlianzasTSocialController
 Route::get('/alianzas_t_social', [AlianzasTSocialController::class, 'alianzas_t_social']);
 // CalendarioController
