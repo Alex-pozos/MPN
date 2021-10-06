@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="row fondo" height="50rem">
+    <div class="row fondo" height="500px">
         <div id="menu">
             <div class="">
             <img class=" imgresponsive"
@@ -34,12 +34,12 @@
                         <strong>NOSOTROS</strong>
                     </a>
                     <ul>
-                        <li><a title="Quienes somos" href="#quienessomos">
+                        <li><a title="Quienes somos" href="/quienes_somos">
                                 Quiénes somos
                             </a>
                         </li>
                         <li>
-                            <a title="Objetivos" href="views/objetivos.php">
+                            <a title="Objetivos" href="/alianzas_t_social">
                                 Alizanzas y tejido social
                             </a>
                         </li>
@@ -50,8 +50,8 @@
                         <strong>QUÉ HACEMOS</strong>
                     </a>
                     <ul>
-                        <li><a title="" href="#">Objetivos</a></li>
-                        <li><a title="" href="#">Estrategia</a></li>
+                        <li><a title="" href="/objetivos">Objetivos</a></li>
+                        <li><a title="" href="/estrategia">Estrategia</a></li>
                     </ul>
                 </li>
                 <li class="has-sub">
@@ -59,11 +59,11 @@
                         <strong>ACCIONES</strong>
                     </a>
                     <ul>
-                        <li><a title="" href="#">Campañas de saneamiento ambiental</a></li>
-                        <li><a title="" href="#">Fomento al deporte</a></li>
-                        <li><a title="" href="#">Fomento a la salud familiar</a></li>
-                        <li><a title="" href="#">Equidad de genero</a></li>
-                        <li><a title="" href="#">Culrura civica</a></li>
+                        <li><a title="" href="/campañas_s_ambiental">Campañas de saneamiento ambiental</a></li>
+                        <li><a title="" href="/fomento_deporte">Fomento al deporte</a></li>
+                        <li><a title="" href="/fomento_s_familiar">Fomento a la salud familiar</a></li>
+                        <li><a title="" href="/equidad_genero">Equidad de genero</a></li>
+                        <li><a title="" href="/cultura_civica">Culrura civica</a></li>
                     </ul>
                 </li>
                 <li class="has-sub">
@@ -71,9 +71,9 @@
                         <strong>PROGRAMAS</strong>
                     </a>
                     <ul>
-                        <li><a title="" href="#">Educacion ambiental</a></li>
-                        <li><a title="" href="#">Reciduos solidos</a></li>
-                        <li><a title="" href="#">Recolección de reciduos solidos</a></li>
+                        <li><a title="" href="/educacion_ambiental">Educacion ambiental</a></li>
+                        <li><a title="" href="/residuos_solidos">Residuos solidos</a></li>
+                        <li><a title="" href="/recoleccion_r_solidos">Recolección de reciduos solidos</a></li>
                     </ul>
                 </li>
                 <li class="has-sub">
@@ -81,27 +81,42 @@
                         <strong>PUBLICACIONES</strong>
                     </a>
                     <ul>
-                        <li><a title="" href="#">Calendario</a></li>
+                        <li><a title="" href="/calendario">Calendario</a></li>
                     </ul>
                 </li>
                 <li class="has-sub">
-                    <a title="">
+                    <a title="" href="https://maspornosotros.wordpress.com/" target="_blank">
                         <strong>NOTICIAS</strong>
                     </a>
                 </li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col imgresponsive">
             <div id="carouselHeader" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="imgresponsive" src="{{ asset('img/index/PORTADA.JPG') }}" alt="Third slide">
+                        <img class="imgresponsive" src="{{ asset('img/index/P1000077.JPG') }}" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="imgresponsive" src="{{ asset('img/index/IMG_20210703_121453.jpg') }}" alt="First slide">
+                        <img class="imgresponsive" src="{{ asset('img/index/DSC_0227.JPG') }}" alt="Third slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="imgresponsive" src="{{ asset('img/index/DSC_0477.JPG') }}" alt="Second slide">
+                        <img class="imgresponsive" src="{{ asset('img/index/flora de la región zefirantes en la casa de Niquiz.jpg') }}" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imgresponsive" src="{{ asset('img/index/Imagen 091.jpg') }}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="imgresponsive" src="{{ asset('img/index/IMG_20210703_115038.jpg') }}" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imgresponsive" src="{{ asset('img/index/Sin título-1.jpg') }}" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imgresponsive" src="{{ asset('img/index/P1000130.JPG') }}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="imgresponsive" src="{{ asset('img/index/P1020671.jpg') }}" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselHeader" role="button" data-slide="prev">
