@@ -25,7 +25,7 @@
             </div>
             <ul>
                 <li class="has-sub">
-                    <a href="index.php" title="index">
+                    <a href="/" title="index">
                         <strong>INICIO</strong>
                     </a>
                 </li>
