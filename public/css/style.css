@@ -140,7 +140,7 @@
 }
 /* Fondo del footer en encabezado y pie de pagina */
 .fondo2{
-   background-color:#c7d491;
+   background-color:#ececec;
 }
 /* estilos de la barra de busqueda y de las redes sociales  */
 .redesheader{
@@ -203,6 +203,8 @@
    border-radius: 0 0 0 1rem;
 }
 
+
+/* Inicio de la seccion de la numeralia */
 figure {
    border-radius: 100%;
    position: relative;  
@@ -250,6 +252,7 @@ figure {
    flex-direction: row;
    flex-wrap: wrap;
  }
+ /* Para cambiar el numero de celdas debes de modificar esta parte en lugar de 25% y añadir el color en la siguiente parte */
  .factswrap .item{
    width: 25%;
    height: 100%;
@@ -258,29 +261,29 @@ figure {
    transition:  all .5s ease-in-out;
  }
  .factswrap .item:nth-child(1){
-   background: #004b87;
+   background: #750f0f;
  }
  .factswrap .item:nth-child(2){
-   background: #175b91;
+   background: #9b0606;
  }
  .factswrap .item:nth-child(3){
-   background: #004b87;
+   background: #750f0f;
  }
  .factswrap .item:nth-child(4){
-   background: #175b91;
+   background: #9b0606;
  }
  .factswrap .item p.number{
-   font-size: 40px;
+   font-size: 30px;
    padding: 0;
-   font-weight: bold;
+   /* font-weight: bold; */
  }
  .factswrap .item p{
    color: rgba(255, 255, 255, 0.8);
    font-size: 18px;
    margin: 0;
    padding: 10px;
-   font-family: 'Open Sans';
-   font-weight: bold;
+   font-family:Arial, Helvetica, sans-serif;
+   /* font-weight: bold; */
    transition:  all .5s ease-in-out;
  }
  .factswrap .item span.Line-under{
@@ -304,11 +307,12 @@ figure {
  .factswrap .item:hover span{
    background: white;
  }
+/* Fin de la seccion de la numeralia */
 
 
-
+/* Inicio de la barra de titulo de la numeralia */
  .section-title span {
-   background-color: #004b87;
+   background-color: #750f0f;
    padding: .5rem 2rem;
    color: #fff;
    font-family: Playfair Display,sans-serif;
@@ -316,10 +320,10 @@ figure {
    line-height: 24px;
 }
 .section-title {
-   border-bottom: 2px solid #004b87;
+   border-bottom: 3px solid #750f0f;
    border-bottom-width: 2px;
    border-bottom-style: solid;
-   border-bottom-color: rgb(42, 79, 201);
+   border-bottom-color: #750f0f;
    padding: .4rem 0;
    padding-top: 0.4rem;
    padding-right: 0px;
@@ -331,3 +335,4 @@ figure {
    margin-bottom: 1rem;
    margin-left: 0px;
 }
+/* Fin de la barra de la numeralia */

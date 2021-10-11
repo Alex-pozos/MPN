@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    <div class="row fondo" height="500px">
-        <div id="menu">
+    <div class="row fondo">
+        <div class="col-sm-3" id="menu">
             <div class="">
             <img class=" imgresponsive"
                 src="{{ asset('img/index/LOGOORIGINALMASPORNOSOTROS (2).png') }}">
@@ -39,7 +39,7 @@
                             </a>
                         </li>
                         <li>
-                            <a title="Objetivos" href="/alianzas_t_social">
+                            <a title="Objetivos" href="/#alianzas">
                                 Alizanzas y tejido social
                             </a>
                         </li>
@@ -91,8 +91,18 @@
                 </li>
             </ul>
         </div>
-        <div class="col imgresponsive">
-            <div id="carouselHeader" class="carousel slide" data-ride="carousel">
+        <div class="col-sm-9 imgresponsive">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                  </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="imgresponsive" src="{{ asset('img/index/P1000077.JPG') }}" alt="First slide">
@@ -119,11 +129,11 @@
                         <img class="imgresponsive" src="{{ asset('img/index/P1020671.jpg') }}" alt="Third slide">
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselHeader" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselHeader" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -153,10 +163,10 @@
 
     {{-- Pie de pagina --}}
     <div class="row card text-center  bordeFooter">
-        <div class="card-header" style="background: #cfcfcf; border: 1px solid silver">
+        <div class="card-header" style="background: #FFE26D; border: 1px solid silver">
             <h5 class="card-title lead">Contáctanos <i class="fab fa-teamspeak"></i> </h5>
         </div>
-        <div class="card-body t-contactanos">
+        <div class="card-body t-contactanos fondo2">
             <a class="m-4" href="#" data-toggle="modal" data-target="#modal_email" style="color:#e01e38">
                 <i class="far fa-envelope"></i> Email: maspornosotros@gmail.com
             </a>
@@ -168,7 +178,7 @@
             </a>
 
         </div>
-        <div class="card-footer text-muted lead" style="background: #cfcfcf; border: 1px solid silver">
+        <div class="card-footer text-muted lead" style="background: #FFE26D; border: 1px solid silver">
             2021© Todos los derechos reservados | Más por nosotros A.C.
         </div>
     </div>
