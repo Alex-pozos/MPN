@@ -26,6 +26,6 @@ if ($(this).scrollTop() >= $("#projectFacts").position().top && seEjecuto === 0)
 $('#number1').jQuerySimpleCounter({start: 0,end: 450,duration: 4000});
 $('#number2').jQuerySimpleCounter({start: 0,end: 20,duration: 4000});
 $('#number3').jQuerySimpleCounter({start: 0,end: 700,duration: 3000});
-$('#number4').jQuerySimpleCounter({start: 0,end: 8,duration: 3500});
+$('#number4').jQuerySimpleCounter({start: 0,end: 12,duration: 3500});
 }
 });

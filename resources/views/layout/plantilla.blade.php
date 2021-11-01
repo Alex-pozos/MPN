@@ -147,7 +147,7 @@
             </a>
         </figure>
         <figure id="photo" title="Inicio" tooltip-dir="left">
-            <a href="index.php" class="ico ico-inicio">
+            <a href="/" class="ico ico-inicio">
                 <img src="{{ asset('img/index/inicio.png') }}" width="32" height="32" title="inicio" target="_blank">
             </a>
         </figure>
